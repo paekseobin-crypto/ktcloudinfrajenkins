@@ -11,7 +11,7 @@ pipeline {
       steps {
         sh '''
         docker build -t paekseobin/ktcloudinfra4:0727
-        docker push paekseobin/ktcloudinfra:0727
+        docker push paekseobin/ktcloudinfra4:0727
         '''
       }
     }
