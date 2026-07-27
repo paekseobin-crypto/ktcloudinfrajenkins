@@ -6,7 +6,6 @@ pipeline {
         git url: 'https://github.com/paekseobin-crypto/ktcloudinfrajenkins.git', branch: 'main'
       }
     }
-  stages {
     stage('docker image build and push to hub') {
       steps {
         sh '''
