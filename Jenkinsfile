@@ -9,7 +9,7 @@ pipeline {
     stage('docker image build and push to hub') {
       steps {
         sh '''
-        docker build -t paekseobin/ktcloudinfra4:0727
+        docker build -t paekseobin/ktcloudinfra4:0727 .
         docker push paekseobin/ktcloudinfra4:0727
         '''
       }
